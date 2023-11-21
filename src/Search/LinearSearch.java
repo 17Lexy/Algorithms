@@ -10,7 +10,7 @@ public class LinearSearch {
 
 
 
-        Student[] students = new Student[10];
+        Student[] students = new Student[11];
         students[0] = new Student("Иван", 25, 30000);
         students[1] = new Student("Елена", 30, 35000);
         students[2] = new Student("Пётр", 28, 32000);
@@ -21,7 +21,7 @@ public class LinearSearch {
         students[7] = new Student("Ольга", 31, 34000);
         students[8] = new Student("Александр", 26, 29500);
         students[9] = new Student("Екатерина", 33, 37000);
-        students[9] = new Student("Екатерина2", 33, 37000);
+        students[10] = new Student("Екатерина2", 33, 37000);
 
         boolean result = studentSearch(students, "Сергей");
     }
