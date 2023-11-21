@@ -16,11 +16,6 @@ public class LinearSearch {
         students[2] = new Student("Пётр", 28, 32000);
         students[3] = new Student("Анна", 35, 40000);
         students[4] = new Student("Сергей", 27, 31000);
-        students[5] = new Student("Мария", 32, 33000);
-        students[6] = new Student("Дмитрий", 29, 38000);
-        students[7] = new Student("Ольга", 31, 34000);
-        students[8] = new Student("Александр", 26, 29500);
-        students[9] = new Student("Екатерина", 33, 37000);
 
         boolean result = studentSearch(students, "Сергей");
     }
